@@ -30,8 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         cityList = findViewById(R.id.city_list);
-        String []cities = {"Edmonton", "Vancouver", "Moscow", "Sydney", "Berlin", "Viehma", "Tokyo", "Beijing", "Osaka", "New Delhi", "Calgary", "London", "Paris"
-        , "j", "o", "k", "e", "d", "f", "u", "p"};
+        String []cities = {"Edmonton", "Vancouver", "Moscow", "Sydney", "Berlin", "Viehma", "Tokyo", "Beijing", "Osaka", "New Delhi"};
 
         dataList = new ArrayList<>();
         dataList.addAll(Arrays.asList(cities));
